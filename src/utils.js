@@ -439,7 +439,7 @@ function parseData(data, currentCommand, protocolVersion, deviceUnitType) {
         }
       } else if (currentCommand === 'CASHBOX_PAYOUT_OPERATION_DATA') {
         result.info = { res: {} };
-        console.log(data);
+        //console.log(data);
         for (let i = 0; i < data[0]; i++) {
           result.info.res[i] = {
             quantity: Buffer.from(data.slice((i * 9) + 2, (i * 9) + 4)).readInt16LE(),
