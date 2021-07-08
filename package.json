@@ -1,5 +1,5 @@
 {
-  "name": "@toopago/eSSP",
+  "name": "@toopago/essp",
   "version": "0.0.10",
   "description": "Node.JS library Encrypted Smiley ® Secure Protocol (eSSP, SSP)",
   "main": "src/index.js",

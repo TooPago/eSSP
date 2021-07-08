@@ -6,7 +6,7 @@ Node.JS library Encrypted Smiley ® Secure Protocol (eSSP, SSP)
 
 
 ```js
-const sspLib = require('@toopago/eSSP');
+const sspLib = require('@toopago/essp');
 
 let eSSP = new sspLib({
     id: 0x00,
@@ -48,7 +48,7 @@ See [all supported events](#supported-events)
 
 ## Example
 ```js
-const sspLib = require('@toopago/eSSP');
+const sspLib = require('@toopago/essp');
 
 let eSSP = new sspLib({
     id: 0,
